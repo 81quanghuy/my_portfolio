@@ -150,7 +150,7 @@ export default function Portfolio() {
             <div className="relative">
               <div className="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-500/20 to-violet-500/20 blur-2xl" />
               <div className="relative rounded-3xl border border-white/10 overflow-hidden">
-                <img src="/src/assets/avatar.png" className="w-full h-72 object-cover" />
+                <img src="https://portpolio-bucket.s3.ap-southeast-1.amazonaws.com/avatar.png" className="w-full h-72 object-cover" />
               </div>
             </div>
           </motion.div>
