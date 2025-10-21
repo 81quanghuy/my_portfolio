@@ -37,7 +37,7 @@ const projects = [
   {
     title: 'NovaPlay – Online Movie Streaming Platform',
     description: 'Learning project to build a microservices-based online movie streaming platform. Features include user authentication, movie catalog, reviews, and recommendations.',
-    tags: ['Java', 'Spring Boot', 'Kafka', 'Docker', 'Redis', 'Grafana Tempo'],
+    tags: ['Java', 'Spring Boot', 'Kafka', 'Docker', 'Redis', 'S3',],
     links: { github: 'https://github.com/81quanghuy/NovaPlay', live: '' },
     cover: 'https://portpolio-bucket.s3.ap-southeast-1.amazonaws.com/novaplay_cover.jpg'
   },
