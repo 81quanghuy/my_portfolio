@@ -39,14 +39,14 @@ const projects = [
     description: 'Learning project to build a microservices-based online movie streaming platform. Features include user authentication, movie catalog, reviews, and recommendations.',
     tags: ['Java', 'Spring Boot', 'Kafka', 'Docker', 'Redis', 'Grafana Tempo'],
     links: { github: 'https://github.com/81quanghuy/NovaPlay', live: '' },
-    cover: '/src/assets/novaplay_cover.jpg'
+    cover: 'https://portpolio-bucket.s3.ap-southeast-1.amazonaws.com/novaplay_cover.jpg'
   },
   {
     title: 'UTEALO - Social Media Platform for University Students',
     description: 'Designed and implemented a social media platform tailored for university students, featuring real-time chat, secure authentication, and robust data management.',
     tags: ['Java ', 'Spring Boot', 'JWT', 'WebSocket', 'Kafka', 'Elasticsearch'],
     links: { github: 'https://github.com/81quanghuy/system_utealo_microservice.git', live: '' },
-    cover: '/src/assets/utealo_cover.jpg'
+    cover: 'https://portpolio-bucket.s3.ap-southeast-1.amazonaws.com/utealo_cover.jpg'
   },
   {
     title: 'E-Commerce App – Furniture Store Backend',
@@ -143,7 +143,7 @@ export default function Portfolio() {
             <div className="mt-6 flex flex-wrap gap-3">
               <LinkBtn href="#projects"><Play size={16} /> View Projects</LinkBtn>
               <LinkBtn href="#contact"><Phone size={16} /> Contact Me</LinkBtn>
-              <LinkBtn href="/src/assets/CV_NgoDiepQuangHuy_JavaDeveloper.pdf" target="_blank" rel="noreferrer"><FileText size={16} /> Download CV</LinkBtn>
+              <LinkBtn href="https://portpolio-bucket.s3.ap-southeast-1.amazonaws.com/CV_NgoDiepQuangHuy_JavaDeveloper.pdf" target="_blank" rel="noreferrer"><FileText size={16} /> Download CV</LinkBtn>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}>
