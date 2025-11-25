@@ -77,6 +77,16 @@ const experiences = [
       'Built CI/CD pipelines with GitHub Actions.',
       'Built telemetry pipelines (logs/metrics/traces).',
     ]
+  },
+  {
+    role: 'Java Backend Developer',
+    company: 'CMC Global',
+    period: '8/2025 – Present',
+    bullets: [
+      'Working on the banking domain with high security and high availability requirements.',
+      'Developing and maintaining backend services in a microservice architecture.',
+      'Collaborating with mobile/web teams to deliver stable banking features.'
+    ]
   }
 ] as const
 
